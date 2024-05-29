@@ -1,7 +1,5 @@
 import { Request, Response } from "express"
 import { User } from "../enitities/user"
-import { error } from "console"
-import { ifError } from "assert"
 
 export const createUser = async (req: Request, res: Response) => {
     try {

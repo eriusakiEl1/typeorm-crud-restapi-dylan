@@ -1,4 +1,8 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn, BaseEntity} from "typeorm";
+import { 
+    Column, CreateDateColumn, 
+    Entity, PrimaryGeneratedColumn, 
+    UpdateDateColumn, BaseEntity
+} from "typeorm";
 
 @Entity()
 export class User extends BaseEntity{
@@ -21,5 +25,4 @@ export class User extends BaseEntity{
 
     @UpdateDateColumn()
     updateAt: Date
-
 }
